@@ -56,9 +56,9 @@ contract Blocksol is ERC20 {
     string public constant symbol = 'BSO';
     uint public constant decimals = 18;
     uint256 public totalSupply = 5000000000e18;
-    uint256 public totalDistributed =  2000000000e18;    
+    uint256 public totalDistributed =  2500000000e18;    
     uint256 public constant MIN_CONTRIBUTION = 1 ether / 100;
-    uint256 public tokensPerEth = 10000000e18;
+    uint256 public tokensPerEth = 25000000e18;
     event Transfer(address indexed _from, address indexed _to, uint256 _value);
     event Approval(address indexed _owner, address indexed _spender, uint256 _value);
     event Distr(address indexed to, uint256 amount);
