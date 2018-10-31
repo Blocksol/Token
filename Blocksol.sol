@@ -6,7 +6,7 @@ pragma solidity ^0.4.25;
 // Name        : Blocksol
 // Total supply: 5,000,000,000
 // Decimals    : 18
-// Copyright (c) 2018 Blockchain Solution
+// Copyright (c) 2018 Blockchain Solutions
 //---------------------------------------------------------------------------------------
 
 library SafeMath {
@@ -127,8 +127,7 @@ contract Blocksol is ERC20 {
         require(msg.value > 0);
         tokens = tokensPerEth.mul(msg.value) / 1 ether;        
         address investor = msg.sender;
-       
-       }
+        
         if (msg.value >= 1 ether) {
             bonus = (tokens * 20) / 100;
         }
